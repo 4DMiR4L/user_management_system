@@ -39,5 +39,11 @@ public class Product {
         return Objects.hash(name, price);
     }
 
-
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }

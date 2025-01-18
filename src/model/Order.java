@@ -39,5 +39,11 @@ public class Order {
         return Objects.hash(userId, productId);
     }
 
-
+    @Override
+    public String toString() {
+        return "Order{" +
+                "userId=" + userId +
+                ", productId=" + productId +
+                '}';
+    }
 }
