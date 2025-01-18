@@ -1,6 +1,4 @@
 package repository;
 
-public class GenericRepository {
-
-
+public interface GenericRepository {
 }
