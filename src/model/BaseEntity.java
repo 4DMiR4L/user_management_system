@@ -1,5 +1,5 @@
 package model;
 
 public class BaseEntity {
-    private int id;
+    private Long id;
 }
