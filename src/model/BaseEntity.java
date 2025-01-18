@@ -1,6 +1,7 @@
 package model;
 
 public class BaseEntity {
+
     private long id;
 
     public BaseEntity(long id) {
@@ -14,4 +15,5 @@ public class BaseEntity {
     public void setId(long id) {
         this.id = id;
     }
+
 }
