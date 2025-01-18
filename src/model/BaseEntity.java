@@ -1,17 +1,17 @@
 package model;
 
 public class BaseEntity {
-    private Long id;
+    private long id;
 
-    public BaseEntity(Long id) {
+    public BaseEntity(long id) {
         this.id = id;
     }
 
-    public Long getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(long id) {
         this.id = id;
     }
 }
