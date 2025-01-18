@@ -2,10 +2,11 @@ package model;
 
 import java.util.Objects;
 
-public class User {
+public class User extends BaseEntity {
     private String name;
 
-    public User(String name) {
+    public User(String name,Long id) {
+        super(id);
         this.name = name;
     }
 
@@ -29,4 +30,10 @@ public class User {
         return Objects.hashCode(name);
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
