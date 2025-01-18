@@ -31,4 +31,5 @@ public class UserRepository implements GenericRepository<User> {
     public void delete(Long id) {
 
     }
+
 }
